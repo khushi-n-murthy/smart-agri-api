@@ -5,9 +5,9 @@ import os
 
 app = Flask(__name__)
 
-# Resolve asset paths securely
+
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-MODEL_PATH = os.path.join(BASE_DIR, "models", "irrigation_model_rf.pkl") 
+MODEL_PATH = os.path.join(BASE_DIR, "models", "irrigation_model_best_rf.pkl") 
 SCALER_PATH = os.path.join(BASE_DIR, "models", "irrigation_scaler.pkl")
 
 # Load your Scikit-Learn assets safely
