@@ -31,7 +31,7 @@ def predict():
     # =======================================================
     # CALIBRATION MAPPING (Raw 12-bit ADC -> 0-100% Moisture)
     # =======================================================
-    DRY_VAL = 4095.0   # Bone dry sample reading
+    DRY_VAL = 3150.0   # Bone dry sample reading
     WET_VAL = 1400.0   # Freshly watered sample reading
 
     # Constrain incoming values to our calibrated range bounds
